@@ -468,7 +468,8 @@ namespace Genshin_Checker.Window.ExWindow.CharacterCalculator
                                 3 => World.GetBackgroundColor(World.Country.Sumeru),
                                 4 => World.GetBackgroundColor(World.Country.Fontaine),
                                 5 => World.GetBackgroundColor(World.Country.Natlan),
-                                6 => World.GetBackgroundColor(World.Country.Snezhnaya),
+                                6 => World.GetBackgroundColor(World.Country.Nodkrai),
+                                7 => World.GetBackgroundColor(World.Country.Snezhnaya),
                                 _ => World.GetBackgroundColor(World.Country.Unknown)
                             };
                             if(Store.Misaki_chan.Data.Info?.Localize.Talent.TryGetValue(LocalizeManager.CurrentShort,out var talents)==true) {
@@ -558,7 +559,8 @@ namespace Genshin_Checker.Window.ExWindow.CharacterCalculator
                                 3 => World.GetBackgroundColor(World.Country.Sumeru),
                                 4 => World.GetBackgroundColor(World.Country.Fontaine),
                                 5 => World.GetBackgroundColor(World.Country.Natlan),
-                                6 => World.GetBackgroundColor(World.Country.Snezhnaya),
+                                6 => World.GetBackgroundColor(World.Country.Nodkrai),
+                                7 => World.GetBackgroundColor(World.Country.Snezhnaya),
                                 _ => World.GetBackgroundColor(World.Country.Unknown)
                             };
                             if (Store.Misaki_chan.Data.Info?.Localize.Talent.TryGetValue(LocalizeManager.CurrentShort, out var talents) == true)

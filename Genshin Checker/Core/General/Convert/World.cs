@@ -10,6 +10,7 @@
             Sumeru,
             Fontaine,
             Natlan,
+            Nodkrai,
             Snezhnaya,
             Khaenriah,
             Celestia,
@@ -26,6 +27,7 @@
                 Country.Sumeru => Element.GetBackgroundColor(Element.ElementType.Dendro),
                 Country.Fontaine => Element.GetBackgroundColor(Element.ElementType.Hydro),
                 Country.Natlan => Element.GetBackgroundColor(Element.ElementType.Pyro),
+                Country.Nodkrai => Color.CornflowerBlue,
                 Country.Snezhnaya => Element.GetBackgroundColor(Element.ElementType.Cryo),
                 _ => Color.White
             };
