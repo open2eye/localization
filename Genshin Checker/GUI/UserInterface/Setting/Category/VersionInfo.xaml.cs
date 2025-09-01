@@ -26,7 +26,11 @@ namespace Genshin_Checker.GUI.UserInterface.Setting.Category
         public VersionInfo()
         {
             InitializeComponent();
-            VersionName.Text = $"Version {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+            var version = $"Version {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+#if DEBUG
+            version += " (DEBUG BUILD)";
+#endif
+            VersionName.Text = version;
         }
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {

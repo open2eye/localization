@@ -149,5 +149,19 @@ namespace Genshin_Checker.Window.Debug
                 Dialog.Error("エラー！", ex.ToString());
             }
         }
+
+        private async void ButtonHardChallenge_Click(object sender, EventArgs e)
+        {
+            var account = CheckAccount();
+            if (account == null) return;
+            OutputBox.Text = JsonChecker<dynamic>.format(await GetJson.GetHardChallenge(account, true));
+        }
+
+        private async void ButtonHardChallengePopularity_Click(object sender, EventArgs e)
+        {
+            var account = CheckAccount();
+            if (account == null) return;
+            OutputBox.Text = JsonChecker<dynamic>.format(await GetJson.GetHardChallengePopularity(account));
+        }
     }
 }

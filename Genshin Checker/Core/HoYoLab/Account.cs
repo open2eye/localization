@@ -20,6 +20,7 @@ namespace Genshin_Checker.Core.HoYoLab
         public SpiralAbyss SpiralAbyss;
         public HoYoLabInfomation HoYoLabInfomation;
         public ImaginariumTheater ImaginariumTheater;
+        public HardChallenge HardChallenge;
         public LoginBonus LoginBonus;
         internal DateTime LatestActiveSession { get; private set; } = DateTime.MinValue;
         internal ProcessTime.ProcessState LatestActivity { get; private set; } = ProcessTime.ProcessState.EmptyState;
@@ -72,6 +73,7 @@ namespace Genshin_Checker.Core.HoYoLab
             SpiralAbyss = new(this);
             HoYoLabInfomation = new(this);
             ImaginariumTheater = new(this);
+            HardChallenge = new(this);
             LoginBonus = new(this);
             Culture = CultureInfo.CurrentCulture;
             Endpoint= new(this);
@@ -246,6 +248,8 @@ namespace Genshin_Checker.Core.HoYoLab
             TravelersDiaryDetail.Dispose();
             GameRecords.Dispose();
             Characters.Dispose();
+            HardChallenge.Dispose();
+            ImaginariumTheater.Dispose();
             ProcessTime.Instance.ChangedState -= SessionChange;
             ProcessTime.Instance.SessionExceeded -= AutoHoYoLabSignIn;
         }

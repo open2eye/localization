@@ -241,8 +241,13 @@ namespace Genshin_Checker.Model.HoYoLab.RealTimeNote
         /// <summary>
         /// <para>【魔神任務】</para>
         /// <para>任務内部番号</para>
+        /// 例1[章]0[幕]
         /// </summary>
         public int id { get; set; }
+        /// <summary>
+        /// <para>1 = 魔神任務</para>
+        /// </summary>
+        public int chapter_type { get; set; } = 0;
     }
     public class ArchonQuestProgress
     {

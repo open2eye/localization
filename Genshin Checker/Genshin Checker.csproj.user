@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\Users\Misaki\dev\Genshin Checker\Genshin Checker\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\Misaki\dev\Genshin Checker\Genshin Checker\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Resource Update="App.xaml">
@@ -46,6 +46,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="GUI\Window\CentralPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI\Window\CharacterCalculator.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="GUI\Window\HoYoContentViewer.xaml.cs">
@@ -224,6 +227,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="GUI\old\ExWindow\CharacterCalculator\CalculateResult.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\old\ExWindow\CharacterCalculator\CalculateResult.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resource\Render.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -278,6 +287,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\Window\CentralPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\Window\CharacterCalculator.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\Window\HoYoContentViewer.xaml">

@@ -182,6 +182,36 @@ namespace Genshin_Checker.Core.HoYoLab
             if (root.Data == null) throw new HoYoLabAPIException(root.Retcode, root.Message);
             return root.Data;
         }
+        /// <summary>
+        /// 幽境の激戦情報を取得
+        /// </summary>
+        /// <param name="need_detail"></param>
+        /// <returns></returns>
+        /// <exception cref="UserNotAuthenticatedException"></exception>
+        /// <exception cref="HoYoLabAPIException"></exception>
+        public async Task<Model.HoYoLab.HardChallenge.Data> GetHardChallenge(bool need_detail = true)
+        {
+            if (!Account.IsAuthed) throw new UserNotAuthenticatedException(Account.UID);
+            var json = await GetJson.GetHardChallenge(Account, need_detail);
+            var root = JsonChecker<Model.HoYoLab.HardChallenge.Root>.Check(json);
+            if (root.Data == null) throw new HoYoLabAPIException(root.Retcode, root.Message);
+            return root.Data;
+        }
+
+        /// <summary>
+        /// 幽境の激戦の「光を授けし者」を受けたキャラクターを取得
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="UserNotAuthenticatedException"></exception>
+        /// <exception cref="HoYoLabAPIException"></exception>
+        public async Task<Model.HoYoLab.HardChallengePopularity.Data> GetHardChallengePopularity()
+        {
+            if (!Account.IsAuthed) throw new UserNotAuthenticatedException(Account.UID);
+            var json = await GetJson.GetHardChallengePopularity(Account);
+            var root = JsonChecker<Model.HoYoLab.HardChallengePopularity.Root>.Check(json);
+            if (root.Data == null) throw new HoYoLabAPIException(root.Retcode, root.Message);
+            return root.Data;
+        }
 
         /// <summary>
         /// 育成計算機
@@ -442,6 +472,32 @@ namespace Genshin_Checker.Core.HoYoLab
             var json = await WebRequest.HoYoGetRequest(url, Account.Cookie);
             return json ?? "";
         }
+
+        /// <summary>
+        /// 幽境の激戦情報を取得
+        /// </summary>
+        /// <param name="Account"></param>
+        /// <param name="need_detail"></param>
+        /// <returns></returns>
+        public static async Task<string> GetHardChallenge(Account Account, bool need_detail = true)
+        {
+            var url = $"https://sg-public-api.hoyolab.com/event/game_record/genshin/api/hard_challenge?server={Account.Server}&role_id={Account.UID}&need_detail={need_detail.ToString().ToLower()}";
+            var json = await WebRequest.HoYoGetRequest(url, Account.Cookie);
+            return json ?? "";
+        }
+
+        /// <summary>
+        /// 「光を授けし者」を受けたキャラクターを取得
+        /// </summary>
+        /// <param name="Account"></param>
+        /// <returns></returns>
+        public static async Task<string> GetHardChallengePopularity(Account Account)
+        {
+            var url = $"https://sg-public-api.hoyolab.com/event/game_record/genshin/api/hard_challenge/popularity?server={Account.Server}&role_id={Account.UID}";
+            var json = await WebRequest.HoYoGetRequest(url, Account.Cookie);
+            return json ?? "";
+        }
+
 
         /// <summary>
         /// 育成計算機

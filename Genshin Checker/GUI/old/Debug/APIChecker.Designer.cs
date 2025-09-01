@@ -33,6 +33,10 @@
             label1 = new Label();
             OutputBox = new TextBox();
             panel2 = new Panel();
+            ButtonHardChallengePopularity = new Button();
+            ButtonHardChallenge = new Button();
+            button3 = new Button();
+            textBox2 = new TextBox();
             ButtonTheater = new Button();
             button2 = new Button();
             textBox1 = new TextBox();
@@ -60,8 +64,6 @@
             ButtonSpiralAbyssCurrent = new Button();
             ButtonCharacters = new Button();
             ButtonGameRecord = new Button();
-            textBox2 = new TextBox();
-            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NumCharacterDetailCharacterID).BeginInit();
@@ -117,6 +119,8 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(ButtonHardChallengePopularity);
+            panel2.Controls.Add(ButtonHardChallenge);
             panel2.Controls.Add(button3);
             panel2.Controls.Add(textBox2);
             panel2.Controls.Add(ButtonTheater);
@@ -151,6 +155,43 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(542, 225);
             panel2.TabIndex = 23;
+            // 
+            // ButtonHardChallengePopularity
+            // 
+            ButtonHardChallengePopularity.Location = new Point(336, 26);
+            ButtonHardChallengePopularity.Name = "ButtonHardChallengePopularity";
+            ButtonHardChallengePopularity.Size = new Size(70, 23);
+            ButtonHardChallengePopularity.TabIndex = 52;
+            ButtonHardChallengePopularity.Text = "popularity";
+            ButtonHardChallengePopularity.UseVisualStyleBackColor = true;
+            ButtonHardChallengePopularity.Click += ButtonHardChallengePopularity_Click;
+            // 
+            // ButtonHardChallenge
+            // 
+            ButtonHardChallenge.Location = new Point(218, 26);
+            ButtonHardChallenge.Name = "ButtonHardChallenge";
+            ButtonHardChallenge.Size = new Size(116, 23);
+            ButtonHardChallenge.TabIndex = 24;
+            ButtonHardChallenge.Text = "hard challenge";
+            ButtonHardChallenge.UseVisualStyleBackColor = true;
+            ButtonHardChallenge.Click += ButtonHardChallenge_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(369, 196);
+            button3.Name = "button3";
+            button3.Size = new Size(124, 23);
+            button3.TabIndex = 51;
+            button3.Text = "キャラクター詳細取得";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(8, 196);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(355, 23);
+            textBox2.TabIndex = 50;
             // 
             // ButtonTheater
             // 
@@ -401,23 +442,6 @@
             ButtonGameRecord.UseVisualStyleBackColor = true;
             ButtonGameRecord.Click += ButtonGameRecord_Click;
             // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(8, 196);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(355, 23);
-            textBox2.TabIndex = 50;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(369, 196);
-            button3.Name = "button3";
-            button3.Size = new Size(124, 23);
-            button3.TabIndex = 51;
-            button3.Text = "キャラクター詳細取得";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
             // APIChecker
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -476,5 +500,7 @@
         private Button ButtonTheater;
         private Button button3;
         private TextBox textBox2;
+        private Button ButtonHardChallenge;
+        private Button ButtonHardChallengePopularity;
     }
 }

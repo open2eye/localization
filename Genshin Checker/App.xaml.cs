@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using static Genshin_Checker.Core.HoYoLab.Account;
 using Application = System.Windows.Forms.Application;
 using MessageBox = System.Windows.Forms.MessageBox;
+using System.Reflection;
 
 namespace Genshin_Checker.Core
 {
@@ -30,6 +31,18 @@ namespace Genshin_Checker.Core
                 new System.Threading.ThreadExceptionEventHandler(
                     Application_ThreadException);
 #endif
+            {
+                var name = Assembly.GetExecutingAssembly().GetName();
+                var debug = false;
+#if DEBUG 
+                debug = true;
+#endif
+                Log.Info($"{name.Name} {name.Version} {(debug?"DEBUG":"RELEASE")} BUILD");
+#if DEBUG
+                Log.Warn($"これは開発用ビルドです。過去のバージョンのデータが残っている状態だとうまく動作しない場合があります。");
+                Log.Warn($"タスクトレイ→設定→アプリデータ→データ削除 からデータを削除することができます。");
+#endif
+            }
             LocalizeManager.SetLanguage();
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
