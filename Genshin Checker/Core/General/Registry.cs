@@ -1,5 +1,5 @@
 ﻿using Genshin_Checker.Core.General;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Newtonsoft.Json;
 using System.IO;
 using System.IO.Compression;

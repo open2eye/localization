@@ -3,11 +3,11 @@ using Genshin_Checker.Core.General.Convert;
 using Genshin_Checker.Model.Misaki_chan.info;
 using Genshin_Checker.Model.UserData;
 using Genshin_Checker.Model.UserData.HardChallenge.v1;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Newtonsoft.Json;
 using System.IO;
 using System.Linq;
-using Localize = Genshin_Checker.resource.Languages.Localize;
+using Localize = Genshin_Checker.Resource.Languages.Localize;
 
 namespace Genshin_Checker.Core.HoYoLab
 {
@@ -97,7 +97,7 @@ namespace Genshin_Checker.Core.HoYoLab
                     userdata = await Load(index.schedule.schedule_id);
                     if (userdata.UID != account.UID)
                         throw new InvalidDataException(
-                            string.Format(resource.Languages.Localize.Error_SpiralAbyssFile_DoesNotMatchUID, userdata.UID, account.UID));
+                            string.Format(Localize.Error_SpiralAbyssFile_DoesNotMatchUID, userdata.UID, account.UID));
                 }
                 #endregion
                 #region 取得したデータが重複しているかチェック

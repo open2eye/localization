@@ -1,4 +1,4 @@
-﻿using Genshin_Checker.resource.Languages;
+﻿using Genshin_Checker.Resource.Languages;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.IO;
@@ -16,6 +16,7 @@ namespace Genshin_Checker.Core.General
             }
             catch (Exception ex)
             {
+                Log.Error(ex);
                 throw new InvalidDataException(string.Format(Localize.Error_API_Endpoint_JsonParseInvalid, json), ex);
             }
         }

@@ -2,7 +2,7 @@
 using Genshin_Checker.Core.Game;
 using System.Text;
 using Genshin_Checker.Window.Popup;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 
 namespace Genshin_Checker.Window
 {

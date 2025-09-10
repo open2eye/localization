@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.Core.HoYoLab;
 using Genshin_Checker.Model.UserData.SpiralAbyss.v2;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Window.Popup;
 using OpenTK.Graphics.ES20;
 using System;

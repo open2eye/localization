@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Genshin_Checker.Window.Popup;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 
 namespace Genshin_Checker.Window.ProgressWindow
 {

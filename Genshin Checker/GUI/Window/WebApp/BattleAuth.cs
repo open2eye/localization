@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Text;
 using Genshin_Checker.GUI.Window.WebApp;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Core.General;
 using Genshin_Checker.GUI.Window.PopupWindow;
 

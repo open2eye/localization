@@ -1,4 +1,4 @@
-﻿using Genshin_Checker.resource.Languages;
+﻿using Genshin_Checker.Resource.Languages;
 
 namespace Genshin_Checker.Core.HoYoLab
 {

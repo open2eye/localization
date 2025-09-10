@@ -2,7 +2,7 @@
 using Genshin_Checker.Core.General.Convert;
 using Genshin_Checker.Model.UserData;
 using Genshin_Checker.Model.UserData.SpiralAbyss.v2;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Newtonsoft.Json;
 using System.IO;
 

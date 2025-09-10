@@ -338,7 +338,8 @@ namespace Genshin_Checker.Model.HoYoLab.RealTimeNote
         /// <para>【デイリー任務】</para>
         /// <para>長期冒険修練のリセットするまでの残り時間</para>
         /// <para>単位は「秒」</para>
+        /// <para>何故か6.0のアプデでint値上回ってた。なんで？</para>
         /// </summary>
-        public int stored_attendance_refresh_countdown { get; set; } = 0;
+        public long stored_attendance_refresh_countdown { get; set; } = 0;
     }
 }

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Genshin_Checker.Core.General.Convert;
 using Genshin_Checker.GUI.Window.PopupWindow;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Core;
 using static Genshin_Checker.Window.ExWindow.CharacterCalculator.CalculateResult;
 

@@ -233,6 +233,15 @@
     <EmbeddedResource Update="GUI\old\ExWindow\CharacterCalculator\CalculateResult.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resource\Languages\Genshin.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource\Languages\Genshin.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource\Languages\Localize.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resource\Render.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>

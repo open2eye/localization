@@ -1,5 +1,5 @@
 ﻿using Genshin_Checker.Core.General.UI;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

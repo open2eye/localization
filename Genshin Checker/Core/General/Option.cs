@@ -1,4 +1,4 @@
-﻿using Genshin_Checker.resource.Languages;
+﻿using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.GUI.Window.PopupWindow;
 using Newtonsoft.Json;
 

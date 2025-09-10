@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.Core.General;
 using Genshin_Checker.Core.HoYoLab;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Newtonsoft.Json;
 using System.Globalization;
 using System.IO;

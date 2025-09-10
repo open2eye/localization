@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Genshin_Checker.resource.Languages {
+namespace Genshin_Checker.Resource.Languages {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace Genshin_Checker.resource.Languages {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class HoYoLabAPIRetcode {
+    public class HoYoLabAPIRetcode {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace Genshin_Checker.resource.Languages {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.resource.Languages.HoYoLabAPIRetcode", typeof(HoYoLabAPIRetcode).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.Resource.Languages.HoYoLabAPIRetcode", typeof(HoYoLabAPIRetcode).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace Genshin_Checker.resource.Languages {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace Genshin_Checker.resource.Languages {
         ///   This error occurs when in-game access is not allowed.
         ///Please open the HoYoLab mobile app once and go to &quot;Enhancement Progression Calculator&quot; permission settings to allow in-game character data access. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string _502002 {
+        public static string _502002 {
             get {
                 return ResourceManager.GetString("-502002", resourceCulture);
             }

@@ -1,7 +1,7 @@
 ﻿using Genshin_Checker.Core.General;
 using Genshin_Checker.Core.HoYoLab;
 using Genshin_Checker.Core.Store.RealTimeNote;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using static Genshin_Checker.Core.HoYoLab.Account;
 
 namespace Genshin_Checker.Core

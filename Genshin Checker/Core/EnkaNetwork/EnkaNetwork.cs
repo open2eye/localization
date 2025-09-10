@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Http;
 using Genshin_Checker.Core.HoYoLab;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 
 namespace Genshin_Checker.Core.EnkaNetwork
 {

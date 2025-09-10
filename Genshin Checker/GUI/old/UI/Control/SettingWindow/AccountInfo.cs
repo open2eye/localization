@@ -1,5 +1,5 @@
 ﻿using Genshin_Checker.Core.HoYoLab;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Store;
 using Genshin_Checker.GUI.Window.PopupWindow;
 using System;

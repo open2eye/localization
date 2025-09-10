@@ -6,6 +6,7 @@ using Genshin_Checker.Core.HoYoLab;
 using System.Diagnostics;
 using Genshin_Checker.Window.Popup;
 using Genshin_Checker.Model.Static.DiaryEventLocalize;
+using Genshin_Checker.Resource.Languages;
 
 namespace Genshin_Checker.Window
 {
@@ -24,7 +25,7 @@ namespace Genshin_Checker.Window
         {
             InitializeComponent();
             this.account = account;
-            this.Text = $"{resource.Languages.Localize.WindowName_TravelersDiary} (UID:{account.UID})";
+            this.Text = $"{Localize.WindowName_TravelersDiary} (UID:{account.UID})";
             PrimogemsType = new PieChart
             {
                 Font = new Font("MS Gothic UI", 12, FontStyle.Regular),

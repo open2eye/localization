@@ -9,7 +9,7 @@ using System.Data;
 using System.Text;
 using Genshin_Checker.Window.Popup;
 using Genshin_Checker.Core.General.Convert;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using System.Diagnostics;
 using System.ComponentModel;
 using System.Windows.Forms;

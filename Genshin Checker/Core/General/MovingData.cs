@@ -1,4 +1,4 @@
-﻿using Genshin_Checker.resource.Languages;
+﻿using Genshin_Checker.Resource.Languages;
 using System.IO;
 using System.IO.Compression;
 

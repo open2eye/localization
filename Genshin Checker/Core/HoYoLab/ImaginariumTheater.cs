@@ -1,7 +1,7 @@
 ﻿using Genshin_Checker.Core.General;
 using Genshin_Checker.Model.UserData.ImaginariumTheater.v2;
 using Genshin_Checker.Model.UserData.ImaginariumTheater.v1;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Core.General.Convert;
 using Newtonsoft.Json;
 using System.IO;

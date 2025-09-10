@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.GUI.Window.PopupWindow;
 using Genshin_Checker.Model.Misaki_chan.info;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;

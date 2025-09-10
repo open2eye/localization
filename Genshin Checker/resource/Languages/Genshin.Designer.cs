@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Genshin_Checker.resource.Languages {
+namespace Genshin_Checker.Resource.Languages {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace Genshin_Checker.resource.Languages {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Genshin {
+    public class Genshin {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace Genshin_Checker.resource.Languages {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.resource.Languages.Genshin", typeof(Genshin).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.Resource.Languages.Genshin", typeof(Genshin).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace Genshin_Checker.resource.Languages {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   No signature set に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Account_NoStatusMessage {
+        public static string Account_NoStatusMessage {
             get {
                 return ResourceManager.GetString("Account_NoStatusMessage", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Agnidus Agate に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_AgnidusAgate {
+        public static string Ascension_AgnidusAgate {
             get {
                 return ResourceManager.GetString("Ascension_AgnidusAgate", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Brilliant Diamond に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_BrilliantDiamond {
+        public static string Ascension_BrilliantDiamond {
             get {
                 return ResourceManager.GetString("Ascension_BrilliantDiamond", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Nagadus Emerald に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_NagadusEmerald {
+        public static string Ascension_NagadusEmerald {
             get {
                 return ResourceManager.GetString("Ascension_NagadusEmerald", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Prithiva Topaz に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_PrithivaTopaz {
+        public static string Ascension_PrithivaTopaz {
             get {
                 return ResourceManager.GetString("Ascension_PrithivaTopaz", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Shivada Jade に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_ShivadaJade {
+        public static string Ascension_ShivadaJade {
             get {
                 return ResourceManager.GetString("Ascension_ShivadaJade", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Vajrada Amethyst に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_VajradaAmethyst {
+        public static string Ascension_VajradaAmethyst {
             get {
                 return ResourceManager.GetString("Ascension_VajradaAmethyst", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Varunada Lazurite に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_VarunadaLazurite {
+        public static string Ascension_VarunadaLazurite {
             get {
                 return ResourceManager.GetString("Ascension_VarunadaLazurite", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Vayuda Turquoise に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Ascension_VayudaTurquoise {
+        public static string Ascension_VayudaTurquoise {
             get {
                 return ResourceManager.GetString("Ascension_VayudaTurquoise", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Reputation Level に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string City_ReputationLevel {
+        public static string City_ReputationLevel {
             get {
                 return ResourceManager.GetString("City_ReputationLevel", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Crystal に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Crystal {
+        public static string Crystal {
             get {
                 return ResourceManager.GetString("Crystal", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Anemo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Anemo {
+        public static string Element_Anemo {
             get {
                 return ResourceManager.GetString("Element_Anemo", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Cryo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Cryo {
+        public static string Element_Cryo {
             get {
                 return ResourceManager.GetString("Element_Cryo", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Dendro に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Dendro {
+        public static string Element_Dendro {
             get {
                 return ResourceManager.GetString("Element_Dendro", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Electro に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Electro {
+        public static string Element_Electro {
             get {
                 return ResourceManager.GetString("Element_Electro", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Geo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Geo {
+        public static string Element_Geo {
             get {
                 return ResourceManager.GetString("Element_Geo", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Hydro に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Hydro {
+        public static string Element_Hydro {
             get {
                 return ResourceManager.GetString("Element_Hydro", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Pyro に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Element_Pyro {
+        public static string Element_Pyro {
             get {
                 return ResourceManager.GetString("Element_Pyro", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Mora に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Mora {
+        public static string Mora {
             get {
                 return ResourceManager.GetString("Mora", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Anemoculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Anemo {
+        public static string Oculus_Anemo {
             get {
                 return ResourceManager.GetString("Oculus_Anemo", resourceCulture);
             }
@@ -243,7 +243,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Cryoculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Cryo {
+        public static string Oculus_Cryo {
             get {
                 return ResourceManager.GetString("Oculus_Cryo", resourceCulture);
             }
@@ -252,7 +252,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Dendroculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Dendro {
+        public static string Oculus_Dendro {
             get {
                 return ResourceManager.GetString("Oculus_Dendro", resourceCulture);
             }
@@ -261,7 +261,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Electroculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Electro {
+        public static string Oculus_Electro {
             get {
                 return ResourceManager.GetString("Oculus_Electro", resourceCulture);
             }
@@ -270,7 +270,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Geoculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Geo {
+        public static string Oculus_Geo {
             get {
                 return ResourceManager.GetString("Oculus_Geo", resourceCulture);
             }
@@ -279,16 +279,25 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Hydroculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Hydro {
+        public static string Oculus_Hydro {
             get {
                 return ResourceManager.GetString("Oculus_Hydro", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Lunoculi に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Oculus_Lune {
+            get {
+                return ResourceManager.GetString("Oculus_Lune", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Pyroculi に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Oculus_Pyro {
+        public static string Oculus_Pyro {
             get {
                 return ResourceManager.GetString("Oculus_Pyro", resourceCulture);
             }
@@ -297,7 +306,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Primogems に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Primogems {
+        public static string Primogems {
             get {
                 return ResourceManager.GetString("Primogems", resourceCulture);
             }
@@ -306,7 +315,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Resin に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Resin {
+        public static string Resin {
             get {
                 return ResourceManager.GetString("Resin", resourceCulture);
             }
@@ -315,7 +324,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Stardust に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string StarDust {
+        public static string StarDust {
             get {
                 return ResourceManager.GetString("StarDust", resourceCulture);
             }
@@ -324,7 +333,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Starglitter に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string StarGlitter {
+        public static string StarGlitter {
             get {
                 return ResourceManager.GetString("StarGlitter", resourceCulture);
             }
@@ -333,7 +342,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Freedom に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_1_1 {
+        public static string TalentBook_1_1 {
             get {
                 return ResourceManager.GetString("TalentBook_1_1", resourceCulture);
             }
@@ -342,7 +351,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Resistance に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_1_2 {
+        public static string TalentBook_1_2 {
             get {
                 return ResourceManager.GetString("TalentBook_1_2", resourceCulture);
             }
@@ -351,7 +360,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Ballad に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_1_3 {
+        public static string TalentBook_1_3 {
             get {
                 return ResourceManager.GetString("TalentBook_1_3", resourceCulture);
             }
@@ -360,7 +369,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Prosperity に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_2_1 {
+        public static string TalentBook_2_1 {
             get {
                 return ResourceManager.GetString("TalentBook_2_1", resourceCulture);
             }
@@ -369,7 +378,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Diligence に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_2_2 {
+        public static string TalentBook_2_2 {
             get {
                 return ResourceManager.GetString("TalentBook_2_2", resourceCulture);
             }
@@ -378,7 +387,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Gold に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_2_3 {
+        public static string TalentBook_2_3 {
             get {
                 return ResourceManager.GetString("TalentBook_2_3", resourceCulture);
             }
@@ -387,7 +396,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Transience に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_3_1 {
+        public static string TalentBook_3_1 {
             get {
                 return ResourceManager.GetString("TalentBook_3_1", resourceCulture);
             }
@@ -396,7 +405,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Elegance に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_3_2 {
+        public static string TalentBook_3_2 {
             get {
                 return ResourceManager.GetString("TalentBook_3_2", resourceCulture);
             }
@@ -405,7 +414,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Light に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_3_3 {
+        public static string TalentBook_3_3 {
             get {
                 return ResourceManager.GetString("TalentBook_3_3", resourceCulture);
             }
@@ -414,7 +423,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Admonition に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_4_1 {
+        public static string TalentBook_4_1 {
             get {
                 return ResourceManager.GetString("TalentBook_4_1", resourceCulture);
             }
@@ -423,7 +432,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Ingenuity に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_4_2 {
+        public static string TalentBook_4_2 {
             get {
                 return ResourceManager.GetString("TalentBook_4_2", resourceCulture);
             }
@@ -432,7 +441,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Praxis に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_4_3 {
+        public static string TalentBook_4_3 {
             get {
                 return ResourceManager.GetString("TalentBook_4_3", resourceCulture);
             }
@@ -441,7 +450,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Equity に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_5_1 {
+        public static string TalentBook_5_1 {
             get {
                 return ResourceManager.GetString("TalentBook_5_1", resourceCulture);
             }
@@ -450,7 +459,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Justice に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_5_2 {
+        public static string TalentBook_5_2 {
             get {
                 return ResourceManager.GetString("TalentBook_5_2", resourceCulture);
             }
@@ -459,7 +468,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Order に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_5_3 {
+        public static string TalentBook_5_3 {
             get {
                 return ResourceManager.GetString("TalentBook_5_3", resourceCulture);
             }
@@ -468,7 +477,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_6_1 {
+        public static string TalentBook_6_1 {
             get {
                 return ResourceManager.GetString("TalentBook_6_1", resourceCulture);
             }
@@ -477,7 +486,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_6_2 {
+        public static string TalentBook_6_2 {
             get {
                 return ResourceManager.GetString("TalentBook_6_2", resourceCulture);
             }
@@ -486,7 +495,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_6_3 {
+        public static string TalentBook_6_3 {
             get {
                 return ResourceManager.GetString("TalentBook_6_3", resourceCulture);
             }
@@ -495,7 +504,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_7_1 {
+        public static string TalentBook_7_1 {
             get {
                 return ResourceManager.GetString("TalentBook_7_1", resourceCulture);
             }
@@ -504,7 +513,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_7_2 {
+        public static string TalentBook_7_2 {
             get {
                 return ResourceManager.GetString("TalentBook_7_2", resourceCulture);
             }
@@ -513,7 +522,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Unknown に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentBook_7_3 {
+        public static string TalentBook_7_3 {
             get {
                 return ResourceManager.GetString("TalentBook_7_3", resourceCulture);
             }
@@ -522,7 +531,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Elemental Burst に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentType_ElementalBurst {
+        public static string TalentType_ElementalBurst {
             get {
                 return ResourceManager.GetString("TalentType_ElementalBurst", resourceCulture);
             }
@@ -531,7 +540,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Elemental Skill に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentType_ElementalSkill {
+        public static string TalentType_ElementalSkill {
             get {
                 return ResourceManager.GetString("TalentType_ElementalSkill", resourceCulture);
             }
@@ -540,7 +549,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Normal Attack に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TalentType_NormalAttack {
+        public static string TalentType_NormalAttack {
             get {
                 return ResourceManager.GetString("TalentType_NormalAttack", resourceCulture);
             }
@@ -549,7 +558,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Weapon_Bow {
+        public static string Weapon_Bow {
             get {
                 return ResourceManager.GetString("Weapon_Bow", resourceCulture);
             }
@@ -558,7 +567,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Catalyst に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Weapon_Catalyst {
+        public static string Weapon_Catalyst {
             get {
                 return ResourceManager.GetString("Weapon_Catalyst", resourceCulture);
             }
@@ -567,7 +576,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Claymore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Weapon_Claymore {
+        public static string Weapon_Claymore {
             get {
                 return ResourceManager.GetString("Weapon_Claymore", resourceCulture);
             }
@@ -576,7 +585,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Polearm に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Weapon_Polearm {
+        public static string Weapon_Polearm {
             get {
                 return ResourceManager.GetString("Weapon_Polearm", resourceCulture);
             }
@@ -585,7 +594,7 @@ namespace Genshin_Checker.resource.Languages {
         /// <summary>
         ///   Sword に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Weapon_Sword {
+        public static string Weapon_Sword {
             get {
                 return ResourceManager.GetString("Weapon_Sword", resourceCulture);
             }

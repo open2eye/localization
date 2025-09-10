@@ -2,7 +2,7 @@
 using Genshin_Checker.Store;
 using Genshin_Checker.Model.UI.GameRecords.Exploration;
 using Genshin_Checker.GUI.Window.PopupWindow;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Core.General.UI;
 
 namespace Genshin_Checker.Window
@@ -132,8 +132,8 @@ namespace Genshin_Checker.Window
                         if (areas.Progress.Count == 1) areas.Progress[0].Name = areas.Name;
                         areas.Progress.Add(new() { Name = ex.Name, Value = ex.Exploration_percentage / 10.0, IsVisible = true });
                     }
-                    var OculusName = new List<string>() { Genshin.Oculus_Anemo, Genshin.Oculus_Geo, Genshin.Oculus_Electro, Genshin.Oculus_Dendro, Genshin.Oculus_Hydro, Genshin.Oculus_Pyro, Genshin.Oculus_Cryo };
-                    var OculusValue = new List<int>() { data.stats.OculusAnemo, data.stats.OculusGeo, data.stats.OculusElectro, data.stats.OculusDendro, data.stats.OculusHydro, data.stats.OculusPyro, data.stats.OculusCryo };
+                    var OculusName = new List<string>() { Genshin.Oculus_Anemo, Genshin.Oculus_Geo, Genshin.Oculus_Electro, Genshin.Oculus_Dendro, Genshin.Oculus_Hydro, Genshin.Oculus_Pyro, Genshin.Oculus_Lune, Genshin.Oculus_Cryo };
+                    var OculusValue = new List<int>() { data.stats.OculusAnemo, data.stats.OculusGeo, data.stats.OculusElectro, data.stats.OculusDendro, data.stats.OculusHydro, data.stats.OculusPyro, data.stats.OculusLune, data.stats.OculusCryo };
                     int OculusAreaCount = 0;
                     Area.Sort((a, b) => b.ID - a.ID);
                     //コントロール追加用と神の瞳用に反転

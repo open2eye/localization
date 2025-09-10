@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.Core.General.UI;
 using Genshin_Checker.Core.HoYoLab;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Store;
 using System;
 using System.Collections.Generic;

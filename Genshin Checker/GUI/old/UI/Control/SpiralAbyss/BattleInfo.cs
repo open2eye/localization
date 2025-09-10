@@ -1,7 +1,7 @@
 ﻿using Genshin_Checker.Core.HoYoLab;
 using Genshin_Checker.Model.HoYoLab.SpiralAbyss;
 using Genshin_Checker.Model.UserData.SpiralAbyss.v1;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

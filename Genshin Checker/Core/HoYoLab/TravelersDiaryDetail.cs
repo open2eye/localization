@@ -2,7 +2,7 @@
 using Genshin_Checker.Model.UserData.TravelersDiary.EventName;
 using Genshin_Checker.Model.UserData.TravelersDiary.EventLists;
 using Newtonsoft.Json;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using System.IO;
 
 namespace Genshin_Checker.Core.HoYoLab

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Genshin_Checker.resource.Languages {
+namespace Genshin_Checker.Resource.Languages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Genshin_Checker.resource.Languages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.resource.Languages.Common", typeof(Common).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Genshin_Checker.Resource.Languages.Common", typeof(Common).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -13,7 +13,7 @@ using Genshin_Checker.UI.Control.GameRecord.CharacterDetail;
 using LiveChartsCore.Drawing;
 using static Genshin_Checker.Core.HoYoLab.Account;
 using Genshin_Checker.Window.Popup;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Core.General.UI;
 using Genshin_Checker.Store;
 using System.Diagnostics;

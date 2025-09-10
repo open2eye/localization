@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.Core.Game;
 using Genshin_Checker.Core.General;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Microsoft.Toolkit.Uwp.Notifications;
 using System.Globalization;
 using System.IO;

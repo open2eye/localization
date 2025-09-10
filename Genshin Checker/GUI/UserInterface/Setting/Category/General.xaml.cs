@@ -1,6 +1,6 @@
 ﻿using Genshin_Checker.Core;
 using Genshin_Checker.Core.General;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using System.Windows;
 using System.Windows.Controls;
 using Brushes = System.Windows.Media.Brushes;

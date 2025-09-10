@@ -1,4 +1,4 @@
-﻿using Genshin_Checker.resource.Languages;
+﻿using Genshin_Checker.Resource.Languages;
 using System.Diagnostics;
 using System.Drawing.Imaging;
 using System.IO;

@@ -2,7 +2,7 @@
 using Genshin_Checker.Core.Game;
 using Genshin_Checker.Core.General;
 using Genshin_Checker.GUI.Window.PopupWindow;
-using Genshin_Checker.resource.Languages;
+using Genshin_Checker.Resource.Languages;
 using Genshin_Checker.Window.Popup;
 using Newtonsoft.Json.Linq;
 using System;
