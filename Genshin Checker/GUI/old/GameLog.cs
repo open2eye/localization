@@ -140,7 +140,7 @@ namespace Genshin_Checker.Window
 
         private void GameLog_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Core.Game.LauncherLogWatcher.Instance.LogUpdated -= LogUpdated;
+            Core.Game.GameLogWatcher.Instance.LogUpdated -= LogUpdated;
             ProcessTime.Instance.ChangedState -= Instance_ChangedState;
         }
 
