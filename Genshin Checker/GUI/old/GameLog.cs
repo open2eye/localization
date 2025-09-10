@@ -14,12 +14,12 @@ namespace Genshin_Checker.Window
         {
             InitializeComponent();
             Log.Font = new Font("ＭＳ ゴシック", (float)numeric_FontSize.Value);
-            /*foreach (var item in old)
+            foreach (var item in old)
             {
                 LogData.Add(item.ToString());
                 Log.AppendText(item.Replace("\r\n", "\n").Replace("\n", Environment.NewLine) + Environment.NewLine);
                 LogCount++;
-            }*/
+            }
             Core.Game.GameLogWatcher.Instance.LogUpdated += LogUpdated;
 
             ProcessTime.Instance.ChangedState += Instance_ChangedState;

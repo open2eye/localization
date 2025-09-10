@@ -497,7 +497,7 @@ namespace Genshin_Checker
         private void CompressLogFile()
         {
             if (stream != null) stream.Close();
-            string oldFilePath = LOGDIR_PATH + LOGFILE_NAME + "_" + DateTime.Now.ToString("yyyyMMddHHmmss");
+            string oldFilePath = Path.Combine(LOGDIR_PATH, LOGFILE_NAME + "_" + DateTime.Now.ToString("yyyyMMddHHmmss"));
             if (logFilePath != null) File.Move(logFilePath, oldFilePath + ".log");
 
             FileStream inStream = new(oldFilePath + ".log", FileMode.Open, FileAccess.Read);
